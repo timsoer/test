@@ -8,13 +8,13 @@ var x, y;
 function setup() {
   //createCanvas(720, 400);
   //pixelDensity(1);
-  createCanvas(windowWidth , windowHeight);
+  createCanvas(windowWidth, windowHeight);
   // Starts in the middle
   //y = height;
   //x = width / 2;
-  windowResized()
+  //windowResized()
   x = randow(windowWidth/2) ;
-  y = 0;
+  y = 100;
   
 }
 
