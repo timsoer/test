@@ -19,7 +19,7 @@ function draw() {
   
   // Draw a circle
   stroke(50);
-  fill(246, 196, 124);
+  fill(146, 106, 20);
   ellipse(x, y, 42, 42);
   
   // Jiggling randomly on the horizontal axis
