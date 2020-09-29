@@ -25,7 +25,8 @@ function draw() {
   
   // Draw a circle
   stroke(50);
-  fill(66, 26, 30);
+  //fill(66, 26, 30);
+  fill(22);
   ellipse(x, y, 42, 42);
   
   // Jiggling randomly on the horizontal axis
