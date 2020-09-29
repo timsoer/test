@@ -10,8 +10,8 @@ function setup() {
   //pixelDensity(1);
   createCanvas(displayWidth , displayHeight);
   // Starts in the middle
-  x = width / 2;
-  x = random(1,width);
+  // x = width / 2;
+  let x = random(width);
   y = height;
 }
 
