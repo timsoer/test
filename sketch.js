@@ -10,9 +10,10 @@ function setup() {
   //pixelDensity(1);
   createCanvas(displayWidth , displayHeight);
   // Starts in the middle
-  x = width / 2;
   //y = height;
-  y = 700;
+  //x = width / 2;
+  x = windowWidth ;
+  y = 0;
   
 }
 
