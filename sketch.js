@@ -16,7 +16,7 @@ function setup() {
   //x = randow(windowWidth/2) ;
   //y = windowHeight;
   x = 600;
-  y = 600;
+  y = 200;
   
 }
 
