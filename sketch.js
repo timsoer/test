@@ -13,7 +13,7 @@ function setup() {
   //y = height;
   //x = width / 2;
   x = windowWidth ;
-  y = 0;
+  y = 200;
   
 }
 
