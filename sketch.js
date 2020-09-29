@@ -15,7 +15,7 @@ function setup() {
   //windowResized()
   //x = random(windowWidth/2) ;
   //y = windowHeight;
-  x = randow(windowWidth-12);
+  x = random(windowWidth-12);
   y = 100;
   
 }
