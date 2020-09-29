@@ -8,7 +8,7 @@ var x, y;
 function setup() {
   //createCanvas(720, 400);
   //pixelDensity(1);
-  createCanvas(displayWidth -150 , displayHeight -150);
+  createCanvas(displayWidth , displayHeight);
   // Starts in the middle
   x = width / 2;
   y = height;
