@@ -16,7 +16,7 @@ function setup() {
   //x = random(windowWidth/2) ;
   //y = windowHeight;
   x = random(windowWidth-12);
-  y = 100;
+  y = height;
   
 }
 
@@ -37,7 +37,7 @@ function draw() {
   
   // Reset to the bottom
   if (y < 0) {
-    x = random(windowWidth-12);
+    x = random(width);
     y = height;
   }
 }
