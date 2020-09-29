@@ -11,7 +11,7 @@ function setup() {
   createCanvas(displayWidth , displayHeight);
   // Starts in the middle
   // x = width / 2;
-  let x = random(width);
+  x = 12
   y = height;
 }
 
