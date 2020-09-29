@@ -11,6 +11,7 @@ function setup() {
   createCanvas(displayWidth , displayHeight);
   // Starts in the middle
   x = width / 2;
+  x = random(width, 1);
   y = height;
 }
 
@@ -23,7 +24,6 @@ function draw() {
   ellipse(x, y, 42, 42);
   
   // Jiggling randomly on the horizontal axis
-  x = random(width, 1);
   x = x + random(-1, 1);
   // Moving up at a constant speed
   y = y - 1;
