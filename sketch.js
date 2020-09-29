@@ -10,9 +10,8 @@ function setup() {
   //pixelDensity(1);
   createCanvas(displayWidth , displayHeight);
   // Starts in the middle
-  // x = width / 2;
-  x = 12
-  y = height;
+  x = width / 2;
+  y = random(height);
 }
 
 function draw() {
