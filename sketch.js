@@ -12,8 +12,9 @@ function setup() {
   // Starts in the middle
   //y = height;
   //x = width / 2;
-  x = randow(windowWidth) ;
-  y = 200;
+  windowResized()
+  x = randow(windowWidth/2) ;
+  y = 0;
   
 }
 
