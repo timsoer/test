@@ -9,7 +9,7 @@ function setup() {
   //createCanvas(720, 400);
   //pixelDensity(1);
   //createCanvas(windowWidth, windowHeight);
-  createCanvas(width, height);
+  createCanvas(displayWidth, displayHeight);
   // Starts in the middle
   //y = height;
   //x = width / 2;
