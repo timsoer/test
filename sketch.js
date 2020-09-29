@@ -30,6 +30,7 @@ function draw() {
   ellipse(x, y, 42, 42);
   
   // Jiggling randomly on the horizontal axis
+  x = random(windowWidth-12);
   x = x + random(-3, 3);
   // Moving up at a constant speed
   y = y - 1;
