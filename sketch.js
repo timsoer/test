@@ -12,6 +12,8 @@ function setup() {
   // Starts in the middle
   x = width / 2;
   y = random(height);
+  x = 12
+  y = 99
 }
 
 function draw() {
