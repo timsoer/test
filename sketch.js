@@ -12,7 +12,7 @@ function setup() {
   // Starts in the middle
   x = width / 2;
   //y = height;
-  y = 0;
+  y = 700;
   
 }
 
